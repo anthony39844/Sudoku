@@ -11,6 +11,7 @@
   <p class="title">Sudoku</p>
   <p id="winner">CORRECT!!!</p>
   <p id="loser">Try Again!</p>
+  <p id="input_error">Invalid Input</p>
   <div class="levels">
     <button class="button" onclick="run('easy')"> Easy</button>
     <button class="button" onclick="run('medium')"> Medium</button>
@@ -18,16 +19,11 @@
     <button class="button" onclick="run('evil')"> Evil</button>
   </div>
   <div class="main-body">
-    <button class="button" onclick="refresh()"> New Puzzle</button>
     <button class="button" onclick="toggleAnswers()">Show Answers</button>
     <button class="button" onclick="checkPuzzles()"> Check Answers</button>
 
-  <table id="board1">
-
-  </table>
-  <table id="board2">
-
-  </table>
+  <table id="board1"></table>
+  <table id="board2"></table>
   </div>
 </body>
 
